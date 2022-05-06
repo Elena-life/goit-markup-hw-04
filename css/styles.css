@@ -48,7 +48,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 
-  outline: 2px solid tomato;
+ /* outline: 2px solid tomato; */
 }
 .logo {
   text-decoration: none;
@@ -247,6 +247,8 @@ padding-bottom: 94px;
   border: 1px solid #eeeeee;
   border-top: none;
   background-color: var(--primery-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .title-position {
   margin-top: 30px;
@@ -374,6 +376,12 @@ background-color: var(--accent-color);
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
   border-top: none;
+}
+.project-desckription .item:hover,
+.project-desckription .item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+  0px 4px 4px rgba(0, 0, 0, 0.06),
+  1px 4px 6px rgba(0, 0, 0, 0.16); 
 }
 .project-desckription .item:nth-child(3n) {
   margin-right: 0;
@@ -512,5 +520,13 @@ background-color: var(--accent-color);
     line-height: 1.63;
     padding: 6px 22px;
     min-width: 73px;
-    }
+  }
+  .button.secondary:hover,
+  .button.secondary:focus {
+    color: var(--primery-white-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+     0px 1px 2px rgba(0, 0, 0, 0.08),
+     0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
 
