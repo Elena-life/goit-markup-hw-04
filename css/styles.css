@@ -306,7 +306,7 @@ background-color: var(--accent-color);
 .icon {
   width: 20px;
   height: 20px;
-  fill: var(--primery-text-color);
+  fill: #AFB1B8;
 }
 
 /* Clients */
@@ -315,6 +315,8 @@ background-color: var(--accent-color);
   padding-bottom: 94px;
 }
 .client-list {
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: space-between;
 }
